@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a150147a17987bce1bf0fd6c85fc5f45",
+    "content-hash": "70e9acc29114dd2bce69338b442dd109",
     "packages": [
         {
             "name": "tcdent/php-restclient",
@@ -13,6 +13,12 @@
                 "type": "git",
                 "url": "https://github.com/tcdent/php-restclient.git",
                 "reference": "4522e8518eaef770d715977fcb45f187f8ad7499"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tcdent/php-restclient/zipball/4522e8518eaef770d715977fcb45f187f8ad7499",
+                "reference": "4522e8518eaef770d715977fcb45f187f8ad7499",
+                "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
@@ -29,29 +35,27 @@
                     "restclient.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Travis Dent",
-                    "role": "Developer",
-                    "email": "tcdent@gmail.com"
+                    "email": "tcdent@gmail.com",
+                    "role": "Developer"
                 }
             ],
             "description": "A generic REST API client for PHP",
             "homepage": "http://github.com/tcdent/php-restclient",
             "keywords": [
-                "JSON",
-                "REST",
-                "XML",
                 "api",
                 "client",
-                "curl"
+                "curl",
+                "json",
+                "rest",
+                "xml"
             ],
-            "support": {
-                "issues": "http://github.com/tcdent/php-restclient/issues"
-            },
             "time": "2017-09-07T20:44:36+00:00"
         }
     ],
