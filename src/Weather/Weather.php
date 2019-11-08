@@ -30,9 +30,11 @@ class Weather
         if ($result->info->http_code == 200) {
             $response = json_decode($result->response, true)['list'][0] ?? [];
             $response['main']['temp'] = ($response['main']['temp'] > 200) ? $response['main']['temp'] - 273.15 : $response['main']['temp'];
-            return "You asked weather for the $cityCommaCountry, founded next weather in {$response['name']} are next: {$response['main']['temp']}°C, {$response['weather'][0]['main']}" . PHP_EOL;
+            if (!empty($response) && !empty($response['name'])) {
+                return "You asked weather for the $cityCommaCountry, founded next weather in {$response['name']} are next: {$response['main']['temp']}°C, {$response['weather'][0]['main']}" . PHP_EOL;
+            }
         }
 
-        return "For city: $cityCommaCountry -- no info about weather has been found!";
+        return "For city: $cityCommaCountry -- no info about weather has been found!" . PHP_EOL;
     }
 }
