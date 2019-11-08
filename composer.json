@@ -1,0 +1,26 @@
+{
+  "name": "millon15/weather",
+  "license": "BSD-3",
+  "description": "My first Composer project",
+  "authors": [
+    {
+      "name": "Vitas Brazas",
+      "email": "vbrazas@student.unit.ua"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0",
+    "tcdent/php-restclient": "^0.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/tcdent/php-restclient.git"
+    }
+  ]
+}

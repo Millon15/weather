@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a150147a17987bce1bf0fd6c85fc5f45",
+    "packages": [
+        {
+            "name": "tcdent/php-restclient",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tcdent/php-restclient.git",
+                "reference": "4522e8518eaef770d715977fcb45f187f8ad7499"
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "php": ">=5.5.7",
+                "phpunit/phpunit": ">=4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "restclient.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Dent",
+                    "role": "Developer",
+                    "email": "tcdent@gmail.com"
+                }
+            ],
+            "description": "A generic REST API client for PHP",
+            "homepage": "http://github.com/tcdent/php-restclient",
+            "keywords": [
+                "JSON",
+                "REST",
+                "XML",
+                "api",
+                "client",
+                "curl"
+            ],
+            "support": {
+                "issues": "http://github.com/tcdent/php-restclient/issues"
+            },
+            "time": "2017-09-07T20:44:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.0"
+    },
+    "platform-dev": []
+}
